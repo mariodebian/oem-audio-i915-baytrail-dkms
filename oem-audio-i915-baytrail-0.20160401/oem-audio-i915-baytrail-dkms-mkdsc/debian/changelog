@@ -2,7 +2,7 @@ oem-audio-i915-baytrail-dkms (0.20160401) unstable; urgency=medium
 
   * Update for 4.4
 
- -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Fri, 01 Apr 2016 21:31:20 +0200
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Fri, 01 Apr 2016 21:29:23 +0200
 
 oem-audio-i915-baytrail-dkms (0.20150605) trusty; urgency=medium
 

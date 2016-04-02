@@ -6,7 +6,7 @@
 
 DEB_NAME=oem-audio-i915-baytrail
 NAME=oem-audio-i915-baytrail
-VERSION=0.20150605
+VERSION=0.20160401
 
 configure: configure-stamp
 configure-stamp:

@@ -1,0 +1,39 @@
+oem-audio-i915-baytrail-dkms (0.20150605) trusty; urgency=medium
+
+  * Polish debian/control and modify debian/copyright. (LP: #1460927)
+
+ -- Shih-Yuan Lee (FourDollars) <sylee@canonical.com>  Fri, 05 Jun 2015 10:09:08 +0800
+
+oem-audio-i915-baytrail-dkms (0.20150602) trusty; urgency=medium
+
+  * Add https://01.org/ubuntu-hdmi information. (LP: #1460927)
+
+ -- Shih-Yuan Lee (FourDollars) <sylee@canonical.com>  Tue, 02 Jun 2015 14:24:46 +0800
+
+oem-audio-i915-baytrail-dkms (0.20150422) trusty; urgency=medium
+
+  * Suspicious bug fix for some monitors (provided by MaxWu, but does it do anything?)
+  * Cleanup my own PCM pointer calculation code a little bit
+  * Changed all printks in the hdmi_audio module to pr_debug for less noise in dmesg
+
+ -- David Henningsson <david.henningsson@canonical.com>  Wed, 22 Apr 2015 10:05:11 +0200
+
+oem-audio-i915-baytrail-dkms (0.20150319b) trusty; urgency=medium
+
+  * New, more accurate, PCM pointer calculation
+  * Lower max buffer size (this was reverted again)
+
+ -- David Henningsson <david.henningsson@canonical.com>  Tue, 14 Apr 2015 15:46:15 +0200
+
+oem-audio-i915-baytrail-dkms (0.20150319) trusty; urgency=medium
+
+  * New upstream code
+
+ -- David Henningsson <david.henningsson@canonical.com>  Fri, 20 Mar 2015 09:22:26 +0100
+
+oem-audio-i915-baytrail-dkms (0.20150302) trusty; urgency=medium
+
+  * Initial release.
+  * Add hw constraint for PulseAudio
+
+ -- David Henningsson <david.henningsson@canonical.com>  Mon, 02 Mar 2015 11:04:22 +0100

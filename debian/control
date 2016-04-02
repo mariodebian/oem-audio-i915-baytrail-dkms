@@ -1,0 +1,15 @@
+Source: oem-audio-i915-baytrail-dkms
+Section: misc
+Priority: optional
+Maintainer: Canonical Commercial Engineering <commercial-engineering@canonical.com>
+Build-Depends: debhelper (>= 7.0.50~), dh-modaliases, dkms
+Standards-Version: 3.9.3
+Homepage: https://01.org/ubuntu-hdmi
+Vcs-Browser: https://github.com/01org/baytrailaudio
+Vcs-Git: git://github.com/01org/baytrailaudio.git
+
+Package: oem-audio-i915-baytrail-dkms
+Architecture: all
+Depends: dkms (>= 1.95), ${misc:Depends}
+XB-Modaliases: ${modaliases}
+Description: oem-audio-i915-baytrail driver in DKMS format.
